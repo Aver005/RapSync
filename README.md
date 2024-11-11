@@ -53,7 +53,7 @@ python app/server.py
 Запустите клиентскую часть:
 
 ```bash
-python app/sync.py
+python run.py
 ```
 
 ## 📂 Структура проекта
@@ -66,11 +66,12 @@ RapSync/
 │   ├── encryption.py
 │   ├── sync.py
 │   ├── startup.py
-│   └── uploader.py
-│
+│   ├── uploader.py
+│   └── configs/
+│       └── DefaultConfig.rsy
+├── run.py
 ├── server.py
-├── requirements.txt
-└── Config.rsy
+└── requirements.txt
 ```
 
 ## 🔒 Безопасность
