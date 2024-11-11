@@ -1,0 +1,5 @@
+{
+    "sync_folder": "C:\\Music\\Текста",
+    "sync_interval": 300,
+    "upload_url": "http://localhost:5000/upload"
+}
